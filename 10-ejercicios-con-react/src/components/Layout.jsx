@@ -9,6 +9,7 @@ function Layout() {
         marginBottom: '2rem'
       }}>
         <Link to="/" style={{ marginRight: '1rem' }}>🏠 Inicio</Link>
+        <Link to="/ejercicio1" style={{ marginRight: '1rem' }}>Ejercicio 1</Link>
       </nav>
       <main style={{ padding: '0 2rem' }}>
         <Outlet />
